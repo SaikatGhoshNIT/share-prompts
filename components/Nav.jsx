@@ -23,7 +23,7 @@ const Nav = () => {
       <Link href="/" className="flex gap-2 flex-center">
         <Image src="assets/undraw_text_field_htlv.svg"
         alt="Promptopia Logo"
-        width={50}
+        width={60}
         height={50}
         className="object-contain"
         />
