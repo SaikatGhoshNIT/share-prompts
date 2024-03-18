@@ -1,4 +1,5 @@
 import Feed from '@components/Feed'
+import Form from '@components/Form'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
 
         {/*Feed Component*/}
         <Feed/>
+        <Form/>
     </section>
   )
 }
