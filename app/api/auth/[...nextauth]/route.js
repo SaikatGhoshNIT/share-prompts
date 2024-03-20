@@ -19,7 +19,7 @@ const handler = NextAuth({
     },
     async signIn({profile}){
         try {
-            //serverLess function -> Lamda Function -> dynamodb (every it will call it will spinup the server and connect with our database)
+            //serverLess function -> Lamda Function -> dynamodb (everytime it will call it will spinup the server and connect with our database)
             await connectToDB();
 
             //? if a user already exists
